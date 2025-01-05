@@ -855,10 +855,10 @@ footer {
         display: none;
     }
     .social-icons{
-    display:none;
+        display: none;
     }
     .nav-links {
-        position: absolute;
+        position: fixed;
         top: 0;
         right: -100%;
         height: 100vh;
