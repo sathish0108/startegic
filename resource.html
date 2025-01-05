@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<style>
+    .resources {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f8f0ff;
+    }
+
+    .resources-title {
+        text-align: center;
+        color: #2D1B4D;
+        font-size: 2rem;
+        margin-bottom: 40px;
+        font-family: Arial, sans-serif;
+    }
+
+    .featured-article {
+        margin-bottom: 50px;
+    }
+
+    .featured-article img {
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50%;
+  width: 50%;
+        border-radius: 10px;
+        /* margin-bottom: 20px; */
+    }
+
+    .featured-article h2 {
+        font-size: 1.5rem;
+        color: #2D1B4D;
+        margin: 15px 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .article-meta {
+        color: #666;
+        font-size: 0.9rem;
+        font-family: Arial, sans-serif;
+    }
+
+    .articles-list {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .article-card {
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+    .article-card img {
+        width: 200px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .article-content {
+        flex: 1;
+    }
+
+    .article-content h3 {
+        font-size: 1.2rem;
+        color: #2D1B4D;
+        margin: 0 0 10px 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .article-content p {
+        color: #666;
+        margin: 10px 0;
+        line-height: 1.5;
+        font-family: Arial, sans-serif;
+    }
+
+    .load-more {
+        display: block;
+        width: 150px;
+        margin: 40px auto;
+        padding: 12px 24px;
+        background-color: #2D1B4D;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    @media (max-width: 768px) {
+        .article-card {
+            flex-direction: column;
+        }
+
+        .article-card img {
+            width: 100%;
+            height: 200px;
+        }
+    }
+    </style>
+<body>
+    <nav>
+        <img src="strategic solutions logo 2.png" alt="Strategic Solutions" class="logo">
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#philosophy">Philosophy</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <a href="#">  <img src="Vector 1.png" alt="social-media">   </a>
+        <div class="social-icons">
+
+            <a href="#">  <img src="Social Media card.png" alt="social-media">   </a>
+            <a href="#"><img src="Social Media card (1).png" alt="social-media"></a>
+            <a href="#"><img src="Social Media card (2).png" alt="social-media"></a>
+        </div>
+    </nav>
+
+    <div class="resources">
+        <h1 class="resources-title">RESOURCES</h1>
+        
+        <div class="featured-article">
+            <img src="colleagues-office-work-day (1) 1.png" alt="Generational Difference">
+            <h2>Generational Difference In Workplace: How Gen Z To Baby Boomers Can Thrive Together</h2>
+            <div class="article-meta">6min • 10.12.24</div>
+        </div>
+
+        <div class="articles-list">
+            <article class="article-card">
+                <img src="1729283485379 2 (1).png" alt="Agile Leadership">
+                <div class="article-content">
+                    <h3>Agile Leadership</h3>
+                    <p>Agile is the way to go - breaking through the boundaries of Hierarchy, Structure and Processes.</p>
+                    <div class="article-meta">6min • 10.12.24</div>
+                </div>
+            </article>
+            <article class="article-card">
+                <img src="1729283485379 2 (1).png" alt="Agile Leadership">
+                <div class="article-content">
+                    <h3>Agile Leadership</h3>
+                    <p>Agile is the way to go - breaking through the boundaries of Hierarchy, Structure and Processes.</p>
+                    <div class="article-meta">6min • 10.12.24</div>
+                </div>
+            </article>  <article class="article-card">
+                <img src="1729283485379 2 (1).png" alt="Agile Leadership">
+                <div class="article-content">
+                    <h3>Agile Leadership</h3>
+                    <p>Agile is the way to go - breaking through the boundaries of Hierarchy, Structure and Processes.</p>
+                    <div class="article-meta">6min • 10.12.24</div>
+                </div>
+            </article>  <article class="article-card">
+                <img src="1729283485379 2 (1).png" alt="Agile Leadership">
+                <div class="article-content">
+                    <h3>Agile Leadership</h3>
+                    <p>Agile is the way to go - breaking through the boundaries of Hierarchy, Structure and Processes.</p>
+                    <div class="article-meta">6min • 10.12.24</div>
+                </div>
+            </article>
+        </div>
+
+        <button class="load-more">Load More</button>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-top">
+                <img src="logo.jpeg" alt="Strategic Solutions" class="logo">
+                <div class="search-box">
+                    <input type="email" class="search-input" placeholder="Enter your email to get the latest news...">
+                    <button class="search-btn">Search</button>
+                </div>
+            </div>
+
+           
+
+            <div class="social-links">
+                <div class="footer-nav">
+                    <a href="index.html">Home</a>
+                    <a href="#">Services</a>
+                    <a href="#">Our Philosophy</a>
+                    <a href="#">Work</a>
+                    <a href="#">About</a>
+                </div>
+                <a href="#"><img src="linkedin.png" alt="YouTube"></a>
+                <a href="#"><img src="facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="instagram.png" alt="Twitter"></a>
+                <a href="#"><img src="twitter.png" alt="Instagram"></a>
+                <a href="#"><img src="youtube.png" alt="LinkedIn"></a>
+            </div>
+
+            <div class="footer-bottom">
+                <p>Strategic Solutions HR Consultants LLC 2025. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

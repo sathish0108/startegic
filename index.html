@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strategic Solutions</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <!-- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
+</head>
+<body>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const hamburger = document.querySelector('.hamburger');
+            const navLinks = document.querySelector('.nav-links');
+
+            hamburger.addEventListener('click', () => {
+                hamburger.classList.toggle('active');
+                navLinks.classList.toggle('active');
+            });
+
+            document.querySelectorAll('.nav-links a').forEach(link => {
+                link.addEventListener('click', () => {
+                    hamburger.classList.remove('active');
+                    navLinks.classList.remove('active');
+                });
+            });
+        });
+    </script>
+
+  
+
+    <nav>
+        <img src="./assets/strategic solutions logo 2.png" alt="Strategic Solutions" class="logo">
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#philosophy">Philosophy</a>
+            <a href="#work">Work</a>
+            <a href="resource.html">Resources</a>
+            <a href="#contact">Contact</a>
+        </div>
+     
+        <a href="#">  <img src="./assets/Vector 1.png" alt="social-medias" class="social-medias">   </a>
+        <div class="social-icons">
+
+            <a href="#">  <img src="./assets/Social Media card.png" alt="social-media">   </a>
+            <a href="#"><img src="./assets/Social Media card (1).png" alt="social-media"></a>
+            <a href="#"><img src="./assets/Social Media card (2).png" alt="social-media"></a>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></xsssspan>
+            <span></span>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h1 class="animate__animated animate__backInDown">UNLEASHING POTENTIAL.</h1>
+        <h2 >BUILDING FUTURES.</h2>
+    </section>
+
+    <section class="trusted-section">
+        <div class="trusted-text">
+            <h2 class="animate__animated animate__fadeInLeft">Trusted by Visionary<br>Leaders Across Industries</h2>
+        </div>
+        <div class="client-logos">
+            <img src="./assets/BAYADA_simplified_logo_color 2.png" alt="Bayada" class="client-logo">
+            <img src="./assets/avid.png" alt="Avid" class="client-logo">
+            <img src="./assets/capital.png" alt="Capital Group" class="client-logo">
+            <img src="./assets/netcom.png" alt="NetCom Learning" class="client-logo">
+        </div>
+    </section>
+
+    <!-- 2nd container -->
+    <div class="testimonial-section">
+        <div class="pattern-overlay"></div>
+        <h2 class="section-title">What clients say about us?</h2>
+        <div class="testimonials">
+            <div class="testimonial-card">
+                <div class="shape-bg">
+                  
+                </div>
+               
+
+                <img src="./assets/Mask group.png" alt="Franklyn D Reynolds" class="profile-image">
+                <div class="content">
+                   
+                    <div class="author-info">
+                        <div class="author-name">Franklyn D Reynolds</div>
+                        <div class="author-title">President & CEO, UIL Holdings</div>
+                    </div>
+                    <div class="quote">
+                        From the moment I interviewed Raji to join our team, 
+                        I was impressed with her skill to quickly grasp issues 
+                        and develop creative solutions. She did so during the 
+                        interview and throughout her tenure with JUSA. Raji's human 
+                        resources skill set is so broad that I never hesitate to enlist 
+                        her support when faced with a challenge out side of the HR realm. 
+                        She always had an idea or offered perspective on the situation to
+                        help resolve the issue. Raji was a great colleague and was a joy to 
+                        work with.
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="shape-bg">
+                 
+                </div>
+               
+
+                <img src="./assets/Mask group (1).png" alt="Kevin Walker" class="profile-image">
+                <div class="content">
+                    <div class="author-info">
+                        <div class="author-name">Kevin Walker</div>
+                        <div class="author-title">President and Chief Executive Officer
+Duquesne Light Holdings, Inc</div>
+                    </div>
+                    <div class="quote">
+                        WOW! What a talented, experienced and effective HR leader. It is hard to limit Raji's area of expertise as she has immense skills in so many areas of the HR landscape. I relied on her advice in many areas outside of Talent Management and Diversity which was her forte, and she never seemed to be outside of her comfort zone. Raji could have easily contributed several levels above the role in which we hired her. Besides being a highly effective leader, she is a pleasure to work with and takes on challenges and organizational change with a can-do spirit that is infectious. I look forward to working with Raji again in any capacity.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+      <!-- 3rd container -->
+      <div class="founder-container">
+        <div class="card-container">
+            <div class="purple-background"></div>
+            <div class="content-wrapper">
+              <h1 class="title" style="text-align: center;">Founder & Principal</h1>
+              <img src="./assets/image 10.png" alt="Founder" class="founder-image" />
+              <h2 class="name" style="text-align: center;">Raji Ramanan</h2>
+              <p class="credentials" style="text-align: center;">ACC, SHRM-SCP™,CHRE, GPHR</p>
+            </div>
+          </div>
+        
+
+        <div class="founder-content">
+            <h1>ABOUT US</h1>
+            <p>Raji Ramanan is a seasoned Global HR Leader, ICF-Certified Executive Leadership Coach, Career Accelerator, Organizational Development Consultant, and Team Effectiveness Facilitator with a career spanning 17 countries and 4 continents.</p>
+            <p>Her passion for unlocking human potential and delivering transformative business results has shaped Strategic Solutions into a trusted partner for organizations worldwide.</p>
+        </div>
+    </div>
+
+      <!-- 4th container -->
+      <div class="we-container">
+       
+            <div class="image-group">
+                <img src="./assets/corporate-team-workers-it-company 1.png" alt="Team discussing" class="main-image">
+                <img src="./assets/bussiness-people-working-team-office 1.png" alt="Team collaboration" class="secondary-image">
+                <div class="dot-pattern"></div>
+            </div>
+  
+        <div class="we-content">
+            <h1>What We Do</h1>
+            <p>At Strategic Solutions Consultants, we specialize in empowering organizations to align their strategy, structure, and leadership to drive impactful growth. Through tailored interventions, we foster team effectiveness, establish and sustain inclusive cultures, and optimize human capital potential. </p>
+            <p> Our focus areas include HR strategy, leadership alignment and coaching, organizational effectiveness, DEIB advisory and training, and career coaching. how to make this more short</p>
+        </div>
+    </div>
+
+    <!-- 5th container -->
+
+    <div class="services-container">
+     
+        <div class="services-header">
+            <h2>Our Services —</h2>
+            <p>Empowering leaders, fostering team effectiveness, and building inclusive environments, to unlock businesses' true potential.</p>
+            <p>We co-create these experiences with our clients, using our expertise and their context to customize the offerings</p>
+        </div>
+
+        <div class="services-grid">
+            <div class="service-item">
+                <img src="./assets/Vector.png" alt="Leadership" class="service-icon">
+                <h3 class="service-title">Leadership Assessment & Coaching</h3>
+            </div>
+
+            <div class="service-item">
+                <img src="./assets/Vector.png" alt="Strategy" class="service-icon">
+                <h3 class="service-title">Strategy & Goals Facilitation</h3>
+            </div>
+
+            <div class="service-item">
+                <img src="./assets/Vector.png" alt="Team" class="service-icon">
+                <h3 class="service-title">Team Effectiveness & Alignment</h3>
+            </div>
+
+            <div class="service-item">
+                <img src="./assets/Vector.png" alt="Culture" class="service-icon">
+                <h3 class="service-title">Cultural Assessment & Training</h3>
+            </div>
+
+            <div class="service-item">
+                <img src="./assets/Vector.png" alt="Career" class="service-icon">
+                <h3 class="service-title">Career Coaching</h3>
+            </div>
+
+            <div class="service-item">
+                <img src="./assets/Vector.png" alt="DEIB" class="service-icon">
+                <h3 class="service-title">DEIB</h3>
+            </div>
+
+            <div class="service-item">
+                <img src="./assets/Vector.png" alt="Skills" class="service-icon">
+                <h3 class="service-title">Leadership Skills Training</h3>
+            </div>
+
+            <div class="service-item">
+                <img src="./assets/Vector.png" alt="Organizational" class="service-icon">
+                <h3 class="service-title">Organizational Effectiveness Consulting</h3>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 6th container -->
+
+    <div class="our-work-container">
+        <div class="work-header">
+            <h2>Our Work</h2>
+            <p class="work-description">At Strategic Solutions Consultants, our clients inspire us to redefine excellence and unlock the true potential of their teams.</p>
+        </div>
+
+        <div class="work-grid">
+            <div class="work-item">
+                <img src="./assets/work3.png" alt="LEAD Program Cohort-1" class="work-image">
+                <h3>LEAD Program Cohort-1</h3>
+                <p>Fostering leadership growth and team connections through immersive learning and reflective engagement.</p>
+            </div>
+
+            <div class="work-item">
+                <img src="./assets/work2.png" alt="HPWT Initiatives" class="work-image">
+                <h3>HPWT Initiatives</h3>
+                <p>Empowering teams to excel through tailored strategies and leadership alignment for lasting success.</p>
+            </div>
+
+            <div class="work-item">
+                <img src="./assets/work1.png" alt="PHR/SPHR Training" class="work-image">
+                <h3>PHR/SPHR Training</h3>
+                <p>Guiding HR professionals through comprehensive PHR/SPHR preparation to build expertise and maximize impact.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 7th container -->
+    <div class="resources-container">
+        <div class="resources-header">
+            <h2>Resources</h2>
+            <a href="#" class="read-more">Read More</a>
+        </div>
+        
+        <p class="resources-description">
+            At Strategic Solutions Consultants, our clients inspire us to redefine excellence and unlock the true potential of their teams.
+        </p>
+
+        <div class="resources-grid">
+            <div class="resource-item">
+                <img src="./assets/resources1.jpeg" alt="Agile Leadership" class="resource-image">
+                <div class="resource-content">
+                    <h3>Agile Leadership</h3>
+                    <p>Agile is the way to go - breaking through the boundaries of Hierarchy, Structure and Processes.</p>
+                </div>
+            </div>
+
+            <div class="resource-item">
+                <img src="./assets/resources2.png" alt="Cultural differences" class="resource-image">
+                <div class="resource-content">
+                    <h3>Cultural differences in managing performance</h3>
+                    <p>A key challenge for HR is how to manage performance for a wide variety of cultures.</p>
+                </div>
+            </div>
+
+            <div class="resource-item">
+                <img src="./assets/resources3.png" alt="Leadership Trends" class="resource-image">
+                <div class="resource-content">
+                    <h3>Leadership Trends</h3>
+                    <p>What makes great leaders in the modern workplace?</p>
+                </div>
+            </div>
+
+            <div class="resource-item">
+                <img src="./assets/resources4.jpeg" alt="Multiplier Effect" class="resource-image">
+                <div class="resource-content">
+                    <h3>Multiplier Effect</h3>
+                    <p>In Learning organizations, the most successful leaders have been the Multipliers who leverage their skills.</p>
+                </div>
+            </div>
+
+            <div class="resource-item">
+                <img src="./assets/resources5.png" alt="Future Ready" class="resource-image">
+                <div class="resource-content">
+                    <h3>Is your organization hashtag FutureReady?</h3>
+                    <p>What do we need to make our organizations thrive in the new digital workplace</p>
+                </div>
+            </div>
+
+            <div class="resource-item">
+                <img src="./assets/resources6.png" alt="Business Strategy" class="resource-image">
+                <div class="resource-content">
+                    <h3>How to align with business strategy</h3>
+                    <p>D&I training is a critical part of business, helping teams align with organizational goals.</p>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+
+    <!-- 8th container -->
+    <div class="contact-container">
+        <div class="contact-form">
+            <div class="contact-title">
+                <h2>Get in <span>Touch</span></h2>
+                <p class="contact-subtitle">We're here to empower your journey toward excellence.</p>
+            </div>
+
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Name *" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <input type="tel" class="form-control" placeholder="Phone number *" required>
+                </div>
+                <div class="form-group">
+                    <select class="form-select">
+                        <option>How did you find us?</option>
+                        <option>Google</option>
+                        <option>Social Media</option>
+                        <option>Referral</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                <button type="submit" class="submit-btn">SEND</button>
+            </form>
+
+            <div class="contact-info">
+                <div class="info-item">
+                    <span>PHONE</span>
+                    <a href="tel:9499292599">9499292599</a>
+                </div>
+                <div class="info-item">
+                    <span>EMAIL</span>
+                    <a href="mailto:rajramanan@strategisolutionsconsultants.com">rajramanan@strategisolutionsconsultants.com</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="map-container">
+            <div id="map" class="map-placeholder"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-top">
+                <img src="./assets/strategic solutions logo 2.png" alt="Strategic Solutions" class="logos">
+                <div class="search-box">
+                    <input type="email" class="search-input" placeholder="Enter your email to get the latest news...">
+                    <button class="search-btn">Search</button>
+                </div>
+            </div>
+
+        
+
+            <div class="social-links">
+                <div class="footer-nav">
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Our Philosophy</a>
+                    <a href="#">Work</a>
+                    <a href="resource.html">Resources</a>
+                </div>
+
+                <a href="#"><img src="./assets/linkedin.png" alt="YouTube"></a>
+                <a href="#"><img src="./assets/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="./assets/instagram.png" alt="Twitter"></a>
+                <a href="#"><img src="./assets/twitter.png" alt="Instagram"></a>
+                <a href="#"><img src="./assets/youtube.png" alt="LinkedIn"></a>
+            </div>
+
+            <div class="footer-bottom">
+                <p>Strategic Solutions HR Consultants LLC 2025. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+<script>
+    // Initialize the map
+    var map = L.map('map').setView([51.505, -0.09], 13);
+
+    // Add a tile layer (e.g., OpenStreetMap)
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const cards = document.querySelectorAll(".resource-item");
+  
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          } else {
+            entry.target.classList.remove("visible");
+          }
+        });
+      },
+      {
+        threshold: 0.2, // Trigger when 20% of the card is visible
+      }
+    );
+  
+    cards.forEach((card) => observer.observe(card));
+  });
+</script>  
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const cards = document.querySelectorAll(".work-item");
+      
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("visible");
+              } else {
+                entry.target.classList.remove("visible");
+              }
+            });
+          },
+          {
+            threshold: 0.2, // Trigger when 20% of the card is visible
+          }
+        );
+      
+        cards.forEach((card) => observer.observe(card));
+      });
+    </script>  
+   
+</body>
+</html>
