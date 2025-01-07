@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Strategic Solutions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <link
@@ -36,18 +37,21 @@
   
 
     <nav>
-        <img src="./assets/strategic solutions logo 2.png" alt="Strategic Solutions" class="logo">
+        <div class="image-container">
+            <img src="Rectangle 2.png" alt="Background Image" class="background-image">
+            <img src="strategic solutions logo 2.png" alt="Overlay Image" class="overlay-image">
+          </div>
         <div class="nav-links">
             <a href="#about">About</a>
             <a href="#services">Services</a>
-            <a href="#philosophy">Philosophy</a>
             <a href="#work">Work</a>
             <a href="resource.html">Resources</a>
+            <a href="#philosophy">Certificates</a>
             <a href="#contact">Contact</a>
         </div>
      
-        <a href="#">  <img src="./assets/Vector 1.png" alt="social-medias" class="social-medias">   </a>
         <div class="social-icons">
+            <a href="#">  <img src="./assets/Vector 1.png" alt="social-medias" class="social-medias">   </a>
 
             <a href="#">  <img src="./assets/Social Media card.png" alt="social-media">   </a>
             <a href="#"><img src="./assets/Social Media card (1).png" alt="social-media"></a>
@@ -60,20 +64,37 @@
         </div>
     </nav>
 
-    <section class="hero">
+    <!-- <section class="hero">
+        
         <h1 class="animate__animated animate__backInDown">UNLEASHING POTENTIAL.</h1>
         <h2 >BUILDING FUTURES.</h2>
-    </section>
-
+    </section> -->
+    <div class="hero-container">
+        <div class="background-image-hero"></div>
+        <div class="overlay-top-right"></div>
+        <div class="overlay-left"></div>
+        <div class="content-hero">
+          <h1 class="animate__animated animate__backInDown">Unleashing Potential.</h1>
+          <h1>Building Futures.</h1>
+        </div>
+      </div>
     <section class="trusted-section">
         <div class="trusted-text">
             <h2 class="animate__animated animate__fadeInLeft">Trusted by Visionary<br>Leaders Across Industries</h2>
         </div>
         <div class="client-logos">
-            <img src="./assets/BAYADA_simplified_logo_color 2.png" alt="Bayada" class="client-logo">
-            <img src="./assets/avid.png" alt="Avid" class="client-logo">
-            <img src="./assets/capital.png" alt="Capital Group" class="client-logo">
-            <img src="./assets/netcom.png" alt="NetCom Learning" class="client-logo">
+            <div class="client-logos-wrapper">
+              <img src="./assets/BAYADA_simplified_logo_color 2.png" alt="Bayada" class="client-logo">
+              <img src="./assets/avid.png" alt="Avid" class="client-logo">
+              <img src="./assets/capital.png" alt="Capital Group" class="client-logo">
+              <img src="./assets/netcom.png" alt="NetCom Learning" class="client-logo">
+              
+              <!-- Duplicate the logos for seamless effect -->
+              <img src="./assets/BAYADA_simplified_logo_color 2.png" alt="Bayada" class="client-logo">
+              <img src="./assets/avid.png" alt="Avid" class="client-logo">
+              <img src="./assets/capital.png" alt="Capital Group" class="client-logo">
+              <img src="./assets/netcom.png" alt="NetCom Learning" class="client-logo">
+            </div>
         </div>
     </section>
 
@@ -173,8 +194,10 @@ Duquesne Light Holdings, Inc</div>
      
         <div class="services-header">
             <h2>Our Services —</h2>
-            <p>Empowering leaders, fostering team effectiveness, and building inclusive environments, to unlock businesses' true potential.</p>
-            <p>We co-create these experiences with our clients, using our expertise and their context to customize the offerings</p>
+            <p>Empowering leaders, fostering <br>team effectiveness, and building <br>
+                inclusive environments, to unlock businesses' <br>true potential.</p>
+            <p>We co-create these experiences <br>with our clients, using our expertise <br>
+                and their context to customize the offerings</p>
         </div>
 
         <div class="services-grid">
