@@ -437,16 +437,26 @@ nav {
     animation: slideIn 1s ease-out;
 }
 
-.founder-content h1 {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 20px;
-}
+.about-heading {
+    position: relative;
+    padding: 20px 0;
+   
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    display: inline-block;
+  }
+  
+
+  
 
 .founder-content p {
     font-size: 16px;
     color: #666;
-    line-height: 1.6;
+    line-height: 3.6;
 }
 .we-container {
     display: flex;
@@ -457,6 +467,7 @@ nav {
     padding: 50px;
     background-color: #f8f8f8;
     overflow: hidden;
+    font-family: Inter, sans-serif;
 }
 
 .image-group {
@@ -506,16 +517,23 @@ nav {
     animation: slideIn 1s ease-out;
 }
 
-.we-content h1 {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 20px;
-}
+.what-heading {
+    position: relative;
+    padding: 20px 0;
+   
+  }
+  
+  .what-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    display: inline-block;
+  }
 
 .we-content p {
     font-size: 16px;
     color: #666;
-    line-height: 1.6;
+    line-height: 3.6;
 }
 
 /* .backgroundimage{
@@ -604,7 +622,7 @@ nav {
     margin-bottom: 3rem;
 }
 
-.work-header h2 {
+/* .work-header h2 {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
     display: flex;
@@ -618,7 +636,7 @@ nav {
     width: 2rem;
     height: 4px;
     background-color: #4a1e6d;
-}
+} */
 
 .work-description {
     font-size: 1.2rem;
