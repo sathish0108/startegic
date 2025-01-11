@@ -40,7 +40,7 @@ nav {
     left: 50%;
     width: 50%; /* Adjust the size of the overlay */
     height: auto;
-    
+    /* filter: invert(1); */
     transform: translate(-50%, -50%); /* Center the image */
   }
 
@@ -203,7 +203,7 @@ nav {
 }
 
 .trusted-section {
-    padding: 5rem 5%;
+    padding: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -257,6 +257,11 @@ nav {
     margin-right: 3rem;  /* Space between logos */
   }
 
+  .client-logo1 {
+    width: 10%;
+    /* height: 13%; */
+    margin-right: 3rem;  /* Space between logos */
+  }
   /* Keyframes for the horizontal slide effect */
   @keyframes slideLeft {
     0% {
@@ -270,7 +275,7 @@ nav {
 
 .pattern-overlay {
     position: absolute;
-   margin-top: -9%;
+   margin-top: -5%;
     right: 0;
     width: 250px;
     height: 156px;
@@ -280,8 +285,8 @@ nav {
   }
   
 .testimonial-section {
-    background: #2d1b4d;
-    padding: 40px 20px;
+    background: #2F0E3F;
+    padding: 50px;
     min-height: 100vh;
     position: relative;
     z-index: 2;
@@ -298,6 +303,7 @@ nav {
 .shape-bg {
     position: absolute;
     background-image: url('./assets/Union.png');
+    background-repeat: no-repeat;
    width: 42%;
     height: 81%;
     top: 33%;
@@ -339,8 +345,8 @@ nav {
 }
 
 .profile-image {
-    width: 80px;
-    height: 80px;
+    width: 78px;
+    height: 76px;
     border-radius: 50%;
     position: absolute;
     top: -40px;
@@ -400,7 +406,7 @@ nav {
     align-items: center;
     justify-content: center;
     padding: 50px;
-    background-color: #f8f8f8;
+    /* background-color: #f8f8f8; */
     overflow: hidden;
 }
 
@@ -469,7 +475,7 @@ nav {
     align-items: center;
     justify-content: center;
     padding: 50px;
-    background-color: #f8f8f8;
+    /* background-color: #f8f8f8; */
     overflow: hidden;
     font-family: Inter, sans-serif;
 }
@@ -506,8 +512,9 @@ nav {
     position: absolute;
     width: 252px;
     height: 156px;
-    background-image: radial-gradient(#8B5CF6 2px, transparent 2px);
-    background-size: 15px 15px;
+    background-image: url('Frame\ 10.svg');  /* Replace with your dot pattern image */
+    background-size: cover;
+    background-repeat: no-repeat;
     left: 11%;
     bottom: 39px;
     z-index: 0;
@@ -554,37 +561,42 @@ nav {
 
 .clipped-div {
     width: 512px;
-    height: 822px;
+    height: 106vh;
     background: linear-gradient(to left, #260039 30%, #B25ED9 100%);
     clip-path: polygon(0 0, 52% 0, 100% 100%, 43% 100%);
     position: absolute;
     left: 54%;
-    margin-top: -4%;
+    margin-top: -5%;
     z-index: -1;
 }
 
 .services-container {
-    /* max-width: 1200px; */
-    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-    url('./assets/group.png') center/cover;
-    margin: 50px auto;
-    padding: 2rem;
+    background:  url(./assets/group.png) center / cover;
+    margin: 90px auto;
+    padding: 50px;
     font-family: Arial, sans-serif;
-    display: flex;
+    display: flex
+;
     flex-direction: row-reverse;
+    height: 100vh;
 }
 
 .services-grid {
     display: grid;
-        grid-template-columns: 1fr 1fr;
-        background-color: #260039;
-        border-radius: 20px;
-        position: relative;
-        left: -7%;
-        margin-top: 8%;
-        margin-bottom: -9%;
-        opacity: 0.8;
-        height: 86vh;
+    grid-template-columns: 1fr 1fr;
+    background-color: #260039;
+    border-radius: 26px;
+    border: 2px solid #E4B9F8;
+    /* border-image: linear-gradient(to right, green, lightgreen); */
+    border-image-slice: 2;
+    position: relative;
+    left: -10%;
+    margin-top: 12%;
+    /* margin-bottom: -12%; */
+    opacity: 0.8;
+    height: 86vh;
+    width: 50vw;
+
    
 }
  
@@ -605,34 +617,36 @@ nav {
 
 .service-title {
     color: white;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    line-height: 1.6;
     margin-bottom: 0.5rem;
     font-weight: 500;
+    
 }
 
 .services-header {
     text-align: right;
     color: #fff;
-    margin-top: 8rem;
-    padding-right: 9rem;
+    margin-top: 9rem;
+    padding-right: 5rem;
 }
 
 .services-header h2 {
     font-size: 2.3rem;
     margin-bottom: 1rem;
-    margin-right: -5rem;
+    /* margin-right: -5rem; */
 }
 
 .services-header p {
     font-size: 1.1rem;
-    line-height: 2.6;
+    line-height: 2;
     color: #fff;
 }
 
 .our-work-container {
     max-width: 1200px;
-    margin: 50px auto;
-    padding: 6rem;
+    margin: 150px auto;
+    /* padding: 6rem; */
     font-family: Arial, sans-serif;
 }
 
@@ -707,8 +721,8 @@ nav {
 
 .resources-container {
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem;
+    margin: 50px auto;
+    /* padding: 2rem; */
     font-family: Arial, sans-serif;
 }
 
@@ -813,7 +827,7 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: var(--light-purple);
-    padding: 4rem 2rem;
+    padding: 50px;
 }
 
 .contact-form {
@@ -872,15 +886,16 @@ nav {
 
 .contact-info {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap: 2rem;
     margin-top: 2rem;
 }
 
 .info-item {
-    /* display: flex; */
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    /* gap: 0.5rem; */
+    gap: 0.5rem;
 }
 
 .map-container {
@@ -939,36 +954,42 @@ footer {
     cursor: pointer;
 }
 
-.footer-nav {
+.social-links {
     display: flex;
-    gap: 2rem;
-    /* margin: 2rem 0; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    border-top: 0.8px solid rgb(255, 255, 255);
 }
 
-.footer-navs {
+.footer-nav {
     display: flex;
-    gap: 1rem;
-    flex-direction: row-reverse;
-    /* margin: 2rem 0; */
+    gap: 30px;
 }
 
 .footer-nav a {
     color: white;
     text-decoration: none;
+    font-size: 16px;
 }
 
-.social-links {
-    display: flex
-    ;
-        gap: 1rem;
-        flex-direction: row;
-        justify-content: space-around;
+.footer-navs {
+    display: flex;
+    gap: 20px;
 }
+
+.social-icon-footer {
+    width: 20px;
+    height: 20px;
+    /* background-color: white; */
+    border-radius: 3px;
+}
+
 
 .footer-bottom {
     text-align: center;
     padding-top: 2rem;
-    border-top: 1px solid rgba(255,255,255,0.1);
+   
 }
 
 
