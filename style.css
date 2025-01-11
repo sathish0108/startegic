@@ -826,13 +826,16 @@ nav {
 .contact-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: var(--light-purple);
-    padding: 50px;
+    background-color: #3E1253;
+    /* padding: 50px; */
 }
 
 .contact-form {
     padding: 2rem;
-    max-width: 500px;
+    /* max-width: 500px; */
+    background: #FAF0FF;
+    height: 89vh;
+    width: 100vh;
 }
 
 .contact-title {
@@ -855,6 +858,7 @@ nav {
 
 .form-group {
     margin-bottom: 1.5rem;
+    width: 50%;
 }
 
 .form-control {
@@ -874,9 +878,9 @@ nav {
 }
 
 .submit-btn {
-    width: 100%;
+    width: 50%;
     padding: 1rem;
-    background-color: var(--primary-purple);
+    background-color: #3E1253;
     color: white;
     border: none;
     border-radius: 4px;
@@ -899,20 +903,20 @@ nav {
 }
 
 .map-container {
-    padding: 2rem;
+    /* padding: 2rem; */
 }
 
 .map-placeholder {
-    width: 100%;
-    height: 100%;
-    min-height: 400px;
-    background-color: #eee;
-    border-radius: 8px;
+    position: absolute;
+    height: 73vh;
+    width: 500px;
+    margin-top: 52px;
+    right: 198px;
 }
 
 /* Footer Styles */
 footer {
-    background-color: var(--primary-purple);
+    background-color: #3E1253;
     color: white;
     padding: 2rem;
 }
