@@ -115,26 +115,30 @@
     </style>
 <body>
     <nav>
-        <img src="./assets/strategic solutions logo 2.png" alt="Strategic Solutions" class="logo">
+        <div class="image-container">
+            <img src="Rectangle 2.png" alt="Background Image" class="background-image">
+            <img src="strategic solutions logo 2.svg" alt="Overlay Image" class="overlay-image">
+          </div>
         <div class="nav-links">
-            <a href="index.html">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#philosophy">Philosophy</a>
-            <a href="#work">Work</a>
-            <a href="#contact">Contact</a>
+            <a href="#about" onclick="scrollToContainer('container1')">About</a>
+            <a href="#services" onclick="scrollToContainer('container2')">Services</a>
+            <a href="#work" onclick="scrollToContainer('container3')">Work</a>
+            <a href="resource.html" onclick="scrollToContainer('container4')">Resources</a>
+            <a href="#philosophy">Certificates</a>
+            <a href="#contact" onclick="scrollToContainer('container5')">Contact</a>
+        </div>
+       
+        <div class="social-icons">
+            <a href="#">  <img src="./assets/Vector 1.png" alt="social-medias" class="social-medias">   </a>
+
+            <a href="#">  <img src="Social Media card.svg" alt="social-media">   </a>
+            <a href="#"><img src="Social Media card (1).svg" alt="social-media"></a>
+            <a href="#"><img src="Social Media card (2).svg" alt="social-media"></a>
         </div>
         <div class="hamburger">
             <span></span>
             <span></span>
             <span></span>
-        </div>
-        <a href="#">  <img src="./assets/Vector 1.png" alt="social-media">   </a>
-        <div class="social-icons">
-
-            <a href="#">  <img src="./assets/Social Media card.png" alt="social-media">   </a>
-            <a href="#"><img src="./assets/Social Media card (1).png" alt="social-media"></a>
-            <a href="#"><img src="./assets/Social Media card (2).png" alt="social-media"></a>
         </div>
     </nav>
 
@@ -186,28 +190,31 @@
     <footer>
         <div class="footer-content">
             <div class="footer-top">
-                <img src="./assets/logo.jpeg" alt="Strategic Solutions" class="logo">
+                <img src="./Frame 63.svg" alt="Strategic Solutions" class="logos">
                 <div class="search-box">
                     <input type="email" class="search-input" placeholder="Enter your email to get the latest news...">
                     <button class="search-btn">Search</button>
                 </div>
             </div>
 
-           
+        
 
             <div class="social-links">
                 <div class="footer-nav">
-                    <a href="index.html">Home</a>
+                    <a href="#">Home</a>
                     <a href="#">Services</a>
                     <a href="#">Our Philosophy</a>
                     <a href="#">Work</a>
-                    <a href="#">About</a>
+                    <a href="#">Resources</a>
                 </div>
-                <a href="#"><img src="./assets/linkedin.png" alt="YouTube"></a>
-                <a href="#"><img src="./assets/facebook.png" alt="Facebook"></a>
-                <a href="#"><img src="./assets/instagram.png" alt="Twitter"></a>
-                <a href="#"><img src="./assets/twitter.png" alt="Instagram"></a>
-                <a href="#"><img src="./assets/youtube.png" alt="LinkedIn"></a>
+                
+                <div class="footer-navs">
+                    <div class="social-icon-footer"><img src="youtube.svg"/></div>
+                    <div class="social-icon-footer"><img src="linkedin.svg"/></div>
+                    <div class="social-icon-footer"><img src="instagram.svg"/></div>
+                    <div class="social-icon-footer"><img src="twitter.svg"/></div>
+                    <div class="social-icon-footer"><img src="facebook.svg"/></div>
+                </div>
             </div>
 
             <div class="footer-bottom">
