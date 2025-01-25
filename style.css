@@ -318,7 +318,7 @@ nav {
 .testimonials {
     display: flex;
     gap: 100px;
-/*     max-width: 1200px; */
+    max-width: 1400px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -645,8 +645,8 @@ nav {
 
 .our-work-container {
     max-width: 1200px;
-    margin: 150px auto;
-/*     padding: 50px; */
+/*     margin: 150px auto; */
+    padding: 100px;
     font-family: Arial, sans-serif;
 }
 
@@ -721,8 +721,8 @@ nav {
 
 .resources-container {
     max-width: 1200px;
-    margin: 50px auto;
-/*     padding: 50px; */
+/*     margin: 50px auto; */
+    padding: 100px;
     font-family: Arial, sans-serif;
 }
 
