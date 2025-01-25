@@ -644,7 +644,7 @@ nav {
 }
 
 .our-work-container {
-    max-width: 1200px;
+/*     max-width: 1200px; */
 /*     margin: 150px auto; */
     margin-top: 17%;
     padding: 100px;
@@ -721,7 +721,7 @@ nav {
 }
 
 .resources-container {
-    max-width: 1200px;
+/*     max-width: 1200px; */
 /*     margin: 50px auto; */
     padding: 100px;
     font-family: Arial, sans-serif;
