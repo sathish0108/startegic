@@ -828,7 +828,7 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: var(--light-purple);
-    padding: 50px;
+    padding: 100px;
 }
 
 .contact-form {
