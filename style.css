@@ -305,7 +305,7 @@ nav {
     background-image: url('./assets/Union.png');
     background-repeat: no-repeat;
    width: 42%;
-    height: 81%;
+    height: 100%;
     top: 33%;
     left: 70%;
     border-radius: 1rem;
@@ -318,7 +318,7 @@ nav {
 .testimonials {
     display: flex;
     gap: 100px;
-    max-width: 1200px;
+/*     max-width: 1200px; */
     margin: 0 auto;
     padding: 20px;
 }
