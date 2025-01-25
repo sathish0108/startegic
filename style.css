@@ -915,7 +915,7 @@ nav {
 footer {
     background-color: var(--primary-purple);
     color: white;
-    padding: 2rem;
+    padding: 100px;
 }
 
 .footer-content {
