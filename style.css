@@ -16,7 +16,7 @@ nav {
     align-items: center;
     /* position: fixed; */
     width: 100%;
-    height: 80px;
+    height: 85px;
     z-index: 1000;
     font-family: 'Averia Sans Libre', sans-serif;
 }
@@ -405,7 +405,7 @@ nav {
     gap: 50px;
     align-items: center;
     justify-content: center;
-    padding: 100px;
+    padding: 50px;
     /* background-color: #f8f8f8; */
     overflow: hidden;
 }
@@ -474,7 +474,7 @@ nav {
     flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
-    padding: 100px;
+    padding: 50px;
     /* background-color: #f8f8f8; */
     overflow: hidden;
     font-family: Inter, sans-serif;
@@ -590,7 +590,7 @@ nav {
     /* border-image: linear-gradient(to right, green, lightgreen); */
     border-image-slice: 2;
     position: relative;
-    left: -20%;
+    left: -10%;
     margin-top: 12%;
     /* margin-bottom: -12%; */
     opacity: 0.8;
@@ -644,10 +644,9 @@ nav {
 }
 
 .our-work-container {
-/*     max-width: 1200px; */
-/*     margin: 150px auto; */
-    margin-top: 17%;
-    padding: 100px;
+    max-width: 1200px;
+    margin: 150px auto;
+    /* padding: 6rem; */
     font-family: Arial, sans-serif;
 }
 
@@ -701,7 +700,7 @@ nav {
 
 .work-image {
     width: 100%;
-    height: 100%;
+    height: 250px;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -721,9 +720,9 @@ nav {
 }
 
 .resources-container {
-/*     max-width: 1200px; */
-/*     margin: 50px auto; */
-    padding: 100px;
+    max-width: 1200px;
+    margin: 50px auto;
+    /* padding: 2rem; */
     font-family: Arial, sans-serif;
 }
 
@@ -794,7 +793,7 @@ nav {
 
 .resource-image {
     width: 100%;
-    height: 115%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -828,7 +827,7 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: var(--light-purple);
-    padding: 75px;
+    padding: 50px;
 }
 
 .contact-form {
@@ -915,11 +914,11 @@ nav {
 footer {
     background-color: var(--primary-purple);
     color: white;
-    padding: 100px;
+    padding: 2rem;
 }
 
 .footer-content {
-    max-width: 90vw;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
