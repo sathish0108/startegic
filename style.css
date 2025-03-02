@@ -16,7 +16,7 @@ nav {
     align-items: center;
     /* position: fixed; */
     width: 100%;
-    height: 85px;
+    height: 82px;
     z-index: 1000;
     font-family: 'Averia Sans Libre', sans-serif;
 }
@@ -590,7 +590,7 @@ nav {
     /* border-image: linear-gradient(to right, green, lightgreen); */
     border-image-slice: 2;
     position: relative;
-    left: -10%;
+    left: -17%;
     margin-top: 12%;
     /* margin-bottom: -12%; */
     opacity: 0.8;
@@ -994,14 +994,6 @@ footer {
 
 
 
-@media (max-width: 1024px) {
-    .resources-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .clipped-div {
-        display: none;
-    }
-}
 
 
 
@@ -1111,11 +1103,17 @@ footer {
         margin: 0 0 20px 0;
     }
     .we-container {
+        
         flex-direction: column;
         text-align: center;
-        padding: 20px;
+        padding: 56px;
     }
-
+    .we-content {
+        flex: 1;
+        text-align: justify;
+        max-width: 100%;
+        animation: slideIn 1s ease-out;
+    }
     .image-group {
         width: 100%;
         height: 400px;
@@ -1124,6 +1122,13 @@ footer {
     .main-image {
         width: 80%;
         height: auto;
+    }
+    .work-image {
+        width: 100%;
+        /* height: 250px; */
+        /* object-fit: cover; */
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
     
     .secondary-image {
@@ -1140,6 +1145,13 @@ footer {
         ;
             flex-direction: column;
     }
+
+    .founder-content {
+    flex: 1;
+
+    max-width: 100%;
+
+}
     .services-header {
         text-align: center;
     }
@@ -1167,6 +1179,13 @@ footer {
     .work-item {
         text-align: center;
     }
+    .resources-container {
+        /* max-width: 1200px; */
+        /* margin: 50px auto; */
+        padding: 2rem;
+        font-family: Arial, sans-serif;
+    }
+    
     .resources-grid {
         grid-template-columns: 1fr;
     }
@@ -1184,14 +1203,20 @@ footer {
     .resource-item {
         height: 250px;
     }
-
+    .mailid {
+        word-break: break-all;
+    }
     .resource-content h3 {
         font-size: 1.3rem;
     }
     .contact-container {
         grid-template-columns: 1fr;
     }
-
+.contact-info{
+    display: flex
+    ;
+        align-items: flex-start;
+}
     .contact-form {
         padding: 1rem;
     }
@@ -1218,6 +1243,347 @@ footer {
     }
 
     .social-links {
+        display: flex;
+        flex-direction: column;
         justify-content: center;
+        gap: 50px;
     }
 }
+
+/* Base styles (already in your CSS) */
+
+/* Media Query for Tablets */
+@media screen and (max-width: 992px) {
+    .work-image {
+        width: 100%;
+        /* height: 250px; */
+        /* object-fit: cover; */
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .we-container {
+        
+        flex-direction: column;
+        text-align: center;
+        padding: 56px;
+    }
+    .contact-container {
+      grid-template-columns: 1fr;
+      padding: 30px;
+    }
+    
+    .contact-form {
+      max-width: 100%;
+      padding: 1.5rem;
+    }
+    
+    .map-container {
+      padding: 1.5rem 1.5rem 2rem;
+    }
+    
+    .map-placeholder {
+      min-height: 300px;
+    }
+    .testimonial-section {
+        padding: 40px 30px;
+        min-height: auto;
+      }
+      
+      .section-title {
+        font-size: 1.8rem;
+        margin-bottom: 50px;
+      }
+      
+      .testimonials {
+        flex-direction: column;
+        gap: 60px;
+      }
+      
+      .testimonial-card {
+        margin-top: 50px;
+        padding: 25px;
+      }
+      
+      .shape-bg {
+        width: 35%;
+        height: 70%;
+        /* top: 40%;
+        left: 75%; */
+      }
+      
+      .content {
+        margin-top: 40px;
+      }
+
+      .services-container {
+        flex-direction: column;
+        height: auto;
+        padding: 40px 30px;
+        margin: 60px auto;
+      }
+      
+      .clipped-div {
+        width: 100%;
+        height: 50vh;
+        left: 0;
+        margin-top: 0;
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+        position: absolute;
+        top: 0;
+      }
+      
+      .services-header {
+        text-align: center;
+        margin-top: 5rem;
+        padding-right: 0;
+        position: relative;
+        z-index: 1;
+      }
+      
+      .services-header h2 {
+        font-size: 2rem;
+      }
+      
+      .services-header p {
+        font-size: 1rem;
+        line-height: 1.8;
+        margin: 0 auto;
+      }
+      
+      .services-header p br {
+        display: none;
+      }
+      
+      .services-grid {
+        position: static;
+        width: 100%;
+        height: auto;
+        margin-top: 3rem;
+        left: 0;
+        grid-template-columns: 1fr 1fr;
+      }
+      
+      .service-item {
+        padding: 1.5rem 1rem;
+      }
+    
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media screen and (max-width: 576px) {
+    .work-image {
+        width: 100%;
+        /* height: 250px; */
+        /* object-fit: cover; */
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .we-content {
+        flex: 1;
+        text-align: justify;
+        max-width: 100%;
+        animation: slideIn 1s ease-out;
+    }
+    .testimonial-section {
+        padding: 30px 20px;
+      }
+      
+      .section-title {
+        font-size: 1.5rem;
+        margin-bottom: 40px;
+      }
+      
+      .testimonial-card {
+        padding: 20px;
+        margin-top: 50px;
+      }
+      
+      .profile-image {
+        width: 70px;
+        height: 70px;
+        top: -35px;
+        left: 20px;
+        border-width: 3px;
+      }
+      
+      .content {
+        margin-top: 45px;
+      }
+      
+      .author-name {
+        font-size: 1.1rem;
+      }
+      
+      .author-title {
+        font-size: 0.8rem;
+      }
+      
+      .quote {
+        font-size: 0.9rem;
+        padding-left: 10px;
+        line-height: 1.5;
+      }
+      
+      .quote::before {
+        font-size: 3rem;
+        left: 85%;
+        top: -60px;
+      }
+      
+      .shape-bg {
+        width: 30%;
+        height: 60%;
+        /* top: 50%;
+        left: 75%; */
+      }
+
+      .services-container {
+        padding: 30px 20px;
+        margin: 40px auto;
+      }
+      
+      .clipped-div {
+        height: 40vh;
+      }
+      
+      .services-header {
+        margin-top: 3rem;
+      }
+      
+      .services-header h2 {
+        font-size: 1.8rem;
+      }
+      
+      .services-header p {
+        font-size: 0.9rem;
+        line-height: 1.6;
+      }
+      
+      .services-grid {
+        grid-template-columns: 1fr 1fr;
+        margin-top: 2rem;
+      }
+      
+      .service-item {
+        padding: 1rem;
+      }
+      
+      .service-icon {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 0.7rem;
+      }
+      
+      .service-title {
+        font-size: 0.9rem;
+      }
+        
+    .contact-container {
+      padding: 20px;
+    }
+    
+    .contact-form {
+      padding: 1rem;
+      /* width: 70%; */
+    }
+    
+    .contact-title h2 {
+      font-size: 2rem;
+    }
+    
+    .contact-info {
+      flex-direction: column;
+      gap: 1rem;
+    }
+    
+    .info-item {
+      width: 100%;
+    }
+    .mailid {
+        word-break: break-all;
+    }
+    
+    .map-container {
+      padding: 1rem;
+      max-width: 100%;
+    }
+    .founder-content {
+        flex: 1;
+    
+        max-width: 100%;
+    
+    }
+    .map-placeholder {
+      min-height: 250px;
+    }
+    
+    .form-group {
+      margin-bottom: 1rem;
+    }
+    
+    .form-control, .form-select {
+      padding: 0.7rem;
+    }
+    
+    .submit-btn {
+      padding: 0.8rem;
+    }
+    .social-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+    }
+     /* Fix for contact info alignment on all screen sizes */
+  .contact-info{
+    display: flex
+    ;
+        align-items: flex-start;
+}
+  
+  .contact-info span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .info-item {
+    margin-left: 0 !important;
+  }
+  }
+  
+ 
+  /* Additional style for very small mobile screens */
+@media screen and (max-width: 375px) {
+    .services-container {
+        padding: 20px 15px;
+      }
+      
+      .services-header h2 {
+        font-size: 1.5rem;
+      }
+      
+      .services-header p {
+        font-size: 0.8rem;
+      }
+      
+      .service-icon {
+        width: 35px;
+        height: 35px;
+      }
+      
+      .service-title {
+        font-size: 0.8rem;
+      }
+    .quote::before {
+      left: 80%;
+      top: -55px;
+      font-size: 2.5rem;
+    }
+    
+    .shape-bg {
+      display: none; /* Hide the shape on very small screens */
+    }
+  }
+
+
